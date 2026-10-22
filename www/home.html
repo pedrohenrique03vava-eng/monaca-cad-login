@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="components/loader.js"></script>
+    <script>
+    </script>
+</head>
+<body>
+      
+    <nav class="navbar">
+        <div class="navbar-brand">MeuApp</div>
+        <a href="login.html" class="btn-logout">Sair</a>
+    </nav>
+
+    
+    <main class="main-container">
+        <section class="welcome-section">
+            <h1>Olá, Usuário! 👋</h1>
+            <p>Seja bem-vindo de volta ao seu painel de controle.</p>
+        </section>
+
+       
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3>Visitas</h3>
+                <div class="value">1,240</div>
+            </div>
+            <div class="card" style="border-left-color: #28a745;">
+                <h3>Tarefas Concluídas</h3>
+                <div class="value">18 / 20</div>
+            </div>
+            <div class="card" style="border-left-color: #ffc107;">
+                <h3>Notificações</h3>
+                <div class="value">3 novas</div>
+            </div>
+        </div>
+
+       
+        <section class="content-block">
+            <h2>Últimas Atualizações</h2>
+            <p>Este é o seu novo painel administrativo estruturado em HTML e CSS. Os cartões acima utilizam um sistema de Grid responsivo que se ajusta automaticamente tanto no computador quanto em telas de celulares ou tablets através do Cordova.</p>
+        </section>
+    </main>
+</body>
+</html>
